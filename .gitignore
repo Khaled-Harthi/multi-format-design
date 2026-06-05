@@ -1,0 +1,23 @@
+# Python / toolchain
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Generated per-project artifacts (decompose/recompose/build write these into a <project> dir)
+out/
+work/
+layers.json
+overrides.json
+ov_*.json
+source.png
+content.json
+content.draft.json
+assets/layers/
+assets/components/
+
+# Packaged skill bundle
+*.skill

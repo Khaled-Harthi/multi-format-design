@@ -1,0 +1,22 @@
+{
+  "_comment": "Target deliverables. layoutClass selects the re-arrangement strategy (square|portrait|landscape|strip|billboard); level selects how much content survives (full|medium|minimal). Sizes follow current platform specs; see references/platform-layouts.md for the direction behind each.",
+  "formats": [
+    { "key": "instagram_post",     "label": "Instagram / FB Feed (Square)",  "w": 1080, "h": 1080, "layoutClass": "square",    "level": "full" },
+    { "key": "instagram_portrait", "label": "Instagram / Threads (Portrait)", "w": 1080, "h": 1350, "layoutClass": "portrait",  "level": "full" },
+    { "key": "instagram_story",    "label": "Instagram Story / Reel",         "w": 1080, "h": 1920, "layoutClass": "portrait",  "level": "full" },
+    { "key": "snapchat_story",     "label": "Snapchat Story",                 "w": 1080, "h": 1920, "layoutClass": "portrait",  "level": "full" },
+    { "key": "tiktok",             "label": "TikTok",                         "w": 1080, "h": 1920, "layoutClass": "portrait",  "level": "full" },
+    { "key": "pinterest_pin",      "label": "Pinterest Pin",                  "w": 1000, "h": 1500, "layoutClass": "portrait",  "level": "medium" },
+    { "key": "facebook_feed",      "label": "Facebook Feed (Landscape)",      "w": 1200, "h": 630,  "layoutClass": "landscape", "level": "full" },
+    { "key": "linkedin_post",      "label": "LinkedIn Post",                  "w": 1200, "h": 627,  "layoutClass": "landscape", "level": "full" },
+    { "key": "x_post",             "label": "X / Twitter Post",               "w": 1600, "h": 900,  "layoutClass": "landscape", "level": "full" },
+    { "key": "youtube_thumb",      "label": "YouTube Thumbnail",              "w": 1280, "h": 720,  "layoutClass": "landscape", "level": "full" },
+    { "key": "web_leaderboard",    "label": "Web Leaderboard Banner",         "w": 728,  "h": 90,   "layoutClass": "strip",     "level": "minimal" },
+    { "key": "web_banner_wide",    "label": "Web Billboard Banner",           "w": 970,  "h": 250,  "layoutClass": "strip",     "level": "minimal" },
+    { "key": "web_skyscraper",     "label": "Web Skyscraper Banner",          "w": 300,  "h": 600,  "layoutClass": "portrait",  "level": "minimal" },
+    { "key": "bus_shelter_6sheet", "label": "Bus Shelter / Street 6-Sheet",   "w": 1200, "h": 1800, "layoutClass": "portrait",  "level": "medium" },
+    { "key": "roll_up_standee",    "label": "Roll-up Standee Banner",         "w": 1000, "h": 2400, "layoutClass": "portrait",  "level": "medium" },
+    { "key": "billboard_48sheet",  "label": "Outdoor Billboard 48-Sheet",     "w": 2400, "h": 1200, "layoutClass": "billboard", "level": "minimal" },
+    { "key": "digital_screen_16x9","label": "Digital Outdoor / TV Screen",    "w": 1920, "h": 1080, "layoutClass": "billboard", "level": "minimal" }
+  ]
+}
