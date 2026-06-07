@@ -6,9 +6,11 @@ destinations; it recreates the design's *real* components (photos with their rea
 buttons, shapes, logo, type) and re-arranges them per size, trimming copy for fast-glance
 formats. Works for any brand, LTR or RTL / Arabic.
 
-This repo is built to be **driven by [Claude Code](https://claude.com/claude-code).** The
-included [`CLAUDE.md`](CLAUDE.md) turns Claude into a specialized design-adaptation agent that
-does the production and hands back finished files — without exposing the machinery.
+This repo is built to be **driven by [Claude Code](https://claude.com/claude-code)** — and by
+any [AGENTS.md](https://agents.md)-aware coding agent. The included [`AGENTS.md`](AGENTS.md)
+turns the agent into a specialized design-adaptation agent that does the production and hands
+back finished files — without exposing the machinery. (`CLAUDE.md` just points Claude Code to
+`AGENTS.md`.)
 
 ## Use it with Claude Code
 ```bash
@@ -41,12 +43,13 @@ python scripts/setup.py <project>                            # one-time toolchai
 ```
 Outputs land in `<project>/out/`. Format keys are in
 [`references/platform-layouts.md`](references/platform-layouts.md); the full operating guide is
-[`CLAUDE.md`](CLAUDE.md).
+[`AGENTS.md`](AGENTS.md).
 
 ## Layout
 | Path | What |
 |---|---|
-| `CLAUDE.md` | The agent's operating + behaviour guide (the brain). |
+| `AGENTS.md` | The agent's operating + behaviour guide (the brain). |
+| `CLAUDE.md` | Pointer that sends Claude Code to `AGENTS.md`. |
 | `scripts/` | The engine: `setup` · `decompose` (recreate pieces) · `recompose` (re-arrange) · flat-source fallback. |
 | `references/` | Quality bar, review checklist, platform sizes, per-source ingestion notes. |
 | `workflows/` | The review-and-fix loop and an optional auto-placement loop. |

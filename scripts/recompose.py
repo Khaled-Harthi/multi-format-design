@@ -13,7 +13,7 @@ Layout is chosen by the target aspect:
   • square    -> hybrid
 A full-bleed 'background' raster (product ads) keeps the old cover/anchored behaviour.
 
-overrides.json (all optional, per format key) — CLAUDE.md has the full, current knob list:
+overrides.json (all optional, per format key) — AGENTS.md has the full, current knob list:
   heroAnchorY/heroSide/heroPct/heroFit, marginPct/gapPct/widthPct/cap/scale, side/topPct,
   logoPct/qrPct/framePos/photoWidthPct, decorOpacity/decorScale/hideDecor, and portrait
   positions titleTop/heroTop/bodyTop/qrTop/noteTop/logoTop/buttonTop/buttonPct/buttonGap.

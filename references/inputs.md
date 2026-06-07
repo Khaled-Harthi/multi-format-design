@@ -1,7 +1,7 @@
 # Accepting designs from any tool
 
 > **This page describes the flat token-rebuild FALLBACK.** The default engine is
-> `decompose.py` → `recompose.py` (probe the real layers and replay them — see CLAUDE.md), and
+> `decompose.py` → `recompose.py` (probe the real layers and replay them — see AGENTS.md), and
 > it is the preferred handler for layered/vector **PDF / AI / PSD**. Use `ingest.py` →
 > `build.py` below only for a genuinely flat source (a single PNG/JPG with no vectors or live
 > text) or when you deliberately want a token rebuild.
