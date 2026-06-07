@@ -88,8 +88,6 @@ any out-of-home they mentioned), state the picks in one line, and offer the rest
   `adapt-iterate.js` (optional auto-placement loop). Set the `EDIT-ME` paths at the top before
   running.
 - `assets/formats.json` — target sizes. `assets/fonts/` — bundled fonts (Cairo/Arabic included).
-- `SKILL.md` — lets the same engine also run as a Claude Skill; this `CLAUDE.md` is the
-  authority when working in the repo.
 
 ## Never
 - Never re-typeset a title in a lookalike font, or rebuild a background/art in CSS — that's

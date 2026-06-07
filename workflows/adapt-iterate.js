@@ -5,7 +5,7 @@
  * then a render -> fresh-eyes critic loop that adjusts recompose.py overrides until
  * each format looks human-designed (no text over the product, balanced, natural).
  *
- * HOW TO RUN (from the agent using this skill):
+ * HOW TO RUN (from the agent operating this repo):
  *   1. Decompose first so layers.json + assets/layers/ exist:
  *        PY scripts/decompose.py <design> <project>
  *   2. EDIT the four constants below for this run (args injection is unreliable in
